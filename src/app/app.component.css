@@ -1,0 +1,36 @@
+#counter{
+    background-color: rgba(252, 211, 172, 0.77);
+    height: 70vh;
+    width: 50vw;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#counter p
+{
+    font-size: 40px;
+}
+.even
+{
+    color: green;
+}
+.odd
+{
+    color: red;
+}
+button
+{
+    
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+button:hover
+{
+    background-color: rgb(249, 46, 46);
+}

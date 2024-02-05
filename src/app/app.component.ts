@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'counter';
+  count =0;
+  iseven=false;
+  incr ()
+  {
+    this.count++;
+    this.iseven=this.count%2==0;
+  }
+  decr ()
+  {
+    this.count--;
+    this.iseven=this.count%2==0;
+  }
+  
+
+  reset ()
+  {
+    this.count=0;
+  }
 }
